@@ -7,6 +7,10 @@ Paola Aleman, Alejandra Espinosa
 
 ## Project Details
 
+## Objective
+The objective in this challenge was extract, transform, and load (ETL) process, which consists of extracting data from datasets, transforming the data, and then loading the transformed data into a database using python and pandas.
+
+## Explain Changes
 After the jupyter code was developed and  with transformation process of data, the 4 csv files were created.
 
 These files were used to model the database scheme, to create a diagram using the QuickDBD tool. Based on that, the sql file named "crowdfunding_db_schema.sql" was generated.  
@@ -28,3 +32,6 @@ Finally, missing part with the SELECT in PostgreDB.
 
 
 The SELECT script can be found in SELECT_Statements.sql
+
+## Conclusion
+Using the resources files given in an xlsx format, which were not very user friendly without a readable and good structure (most data was in one single cell), we were able to transform and create tables(4) that were more user friendly causing the reader to be able to analyze and understand relationships between data more easily. We also created a DBD Diagram which let us identify the primary and foreign keys in each table. 
